@@ -1,0 +1,17 @@
+Console.WriteLine(" Digite dois numeros inteiros");
+int Numero1 = int.Parse(Console.ReadLine());
+int Numero2 = int.Parse(Console.ReadLine());
+
+
+
+
+int Soma = Numero1 + Numero2;
+int Subtracao = Numero1 - Numero2;
+int Divisao = Numero1 / Numero2;
+
+
+
+
+Console.WriteLine($"A soma dos numeros {Numero1} + {Numero2} = {Soma}");
+Console.WriteLine($"A subtracão dos numeros {Numero1} - {Numero2} = {Subtracao}");
+Console.WriteLine($"A divisão dos numeros {Numero1} / {Numero2} = {Divisao}");

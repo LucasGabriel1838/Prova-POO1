@@ -1,0 +1,10 @@
+Console.WriteLine("Digite quantos reais você quer converter");
+float Reais = float.Parse(Console.ReadLine());
+Console.WriteLine("Agora digite a taxa de câmbio do dólar");
+float Dolar = float.Parse(Console.ReadLine());
+
+
+float resultado = Reais / Dolar;
+
+
+Console.WriteLine($"Você receberá {resultado:f2} dólares");

@@ -1,0 +1,13 @@
+Console.WriteLine(" digite um número");
+double Numero = double.Parse(Console.ReadLine());
+
+
+
+
+if(Numero > 0){
+    Console.WriteLine("Seu número é positivo");
+}else if(Numero < 0){
+    Console.WriteLine("Seu número é negativo");
+}else if(Numero == 0){
+    Console.WriteLine("Seu número é igual a zero");
+}

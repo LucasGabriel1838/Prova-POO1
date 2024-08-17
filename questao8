@@ -1,0 +1,24 @@
+Console.WriteLine("digite 3 numeros");
+double N1 = double.Parse(Console.ReadLine());
+double N2 = double.Parse(Console.ReadLine());
+double N3 = double.Parse(Console.ReadLine());
+
+
+double Maior = N1;
+double Menor = N1;
+if(N2 > Maior){
+Maior = N2;
+}
+if(N3 > Maior){
+Maior = N3;
+}
+if(N2 < Menor){
+Menor = N2;
+}
+if(N3 < Menor){
+Menor = N3;
+}
+
+
+Console.WriteLine($"O maior número é {Maior}");
+Console.WriteLine($"O menor número é {Menor}");

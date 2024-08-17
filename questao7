@@ -1,0 +1,29 @@
+class Program
+{
+    static void Main(string[] args){
+         Console.WriteLine("digite sua 1° nota");
+         float n1 = float.Parse(Console.ReadLine());
+         Console.WriteLine("digite sua 2° nota");
+         float n2 = float.Parse(Console.ReadLine());
+         Console.WriteLine("digite sua 3° nota");
+          float n3 = float.Parse(Console.ReadLine());
+
+
+          float Media = CalcularMedia(n1,n2,n3);
+          Console.WriteLine($"Sua media é {Media:f1}");
+
+
+    }
+
+
+    static float CalcularMedia(float nota1,float nota2,float nota3){
+
+
+        float Media = (nota1 + nota2 + nota3) /3;
+        return Media;
+    }
+
+ //Obs: Não sei como usar e nem explicar como funciona o main e class program//
+   
+
+}

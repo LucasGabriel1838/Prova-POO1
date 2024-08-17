@@ -1,0 +1,9 @@
+Console.WriteLine("Olá, por favor, digite seu nome");
+string Nome = Console.ReadLine();
+Console.WriteLine("Agora digite a sua idade");
+int Idade = int.Parse(Console.ReadLine());
+
+
+
+
+Console.WriteLine($" olá, {Nome}, você tem {Idade} anos");

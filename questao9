@@ -1,0 +1,15 @@
+Console.WriteLine(" digite um numero inteiro.(digite 0 para terminar)");
+int N = int.Parse(Console.ReadLine());
+int soma = 0;
+while (N != 0)
+{
+    soma = soma + N;
+     Console.WriteLine(" digite um numero (digite 0 para terminar)");
+      N = int.Parse(Console.ReadLine());
+
+
+    if(N == 0){
+        break;
+    }
+}
+Console.WriteLine($" A soma dos numeros digitados é {soma}");

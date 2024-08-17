@@ -1,0 +1,9 @@
+ Console.WriteLine("Digite sua idade");
+int Idade = int.Parse(Console.ReadLine());
+
+
+if( Idade < 18){
+    Console.WriteLine("Você ainda não pode votar ou dirigir");
+}else{
+    Console.WriteLine("Você está apto a votar e dirigir");
+}
