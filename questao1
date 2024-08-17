@@ -1,0 +1,12 @@
+int Inteiro = 5;
+float Real = 4.5f;
+string Texto = "olá";
+bool Booleano = true;
+
+
+
+
+Console.WriteLine($"Numero inteiro = {Inteiro}");
+Console.WriteLine($"Numero Real = {Real}");
+Console.WriteLine($"Numero Texto = {Texto}");
+Console.WriteLine($"Numero bool = {Booleano}");
